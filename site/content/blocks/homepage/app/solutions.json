@@ -1,0 +1,170 @@
+{
+  "text": [
+    {
+      "text": "Explore some of our solutions",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/home.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Home Charging",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Stay in control of your at-home EV charging experience."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/computer.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Workplaces",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Offer your employees EV charging benefits at work and at home."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/wrench.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Charge Point Installers",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Hassle-free charge point installations."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/residential.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Residential Properties",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Get charging stations set up for your residents."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/operator.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Charge Point Operators",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Effortlessly set up and manage charging sites of any size, all in one place."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/lamp.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Power Utilities",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Offer your customers exclusive energy management features."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/car.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "EV Fleets",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Manage your EV fleet's power needs efficiently."
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Commercial and Retail",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Allow EV drivers to charge at your retail location with ease."
+        }
+      ]
+    }
+  ]
+}

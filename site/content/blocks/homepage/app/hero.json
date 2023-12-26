@@ -1,0 +1,33 @@
+{
+  "text": [
+    {
+      "text": "All your charging.",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Just one Tap",
+      "color": "black",
+      "variant": "h1"
+    },
+    {
+      "text": "Take complete control of EV charging from anywhere with iCharge",
+      "color": "alphaLighter",
+      "variant": "medium"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Get it on Google Play",
+      "type": "APP",
+      "link": "",
+      "variant": "google"
+    },
+    {
+      "text": "Download on the App Store",
+      "type": "APP",
+      "link": "",
+      "variant": "apple"
+    }
+  ]
+}
