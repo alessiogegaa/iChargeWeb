@@ -10,15 +10,15 @@
     {
       "text": [
         {
-          "text": "Which license do I need to use an item in a commercial?",
+          "text": "How much does iCharge cost?",
           "variant": "h5"
         },
         {
-          "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+          "text": "With iCharge, there are never any fees towards charger owners. iCharge adds a service fee to the driver. This service fee starts at 10% for pay-as-you-go drivers, and if they subscribe to iCharge Electric goes down to 0% depending on which subscription they choose. So, you get paid the tariff that you set in the app, and the driver pays the rate we show them in the app before the session starts. It's clear for everyone and we don't add any unnecessary costs in the chain - fair is fair!"
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -26,15 +26,15 @@
     {
       "text": [
         {
-          "text": "What do you mean by item and end product in license terms?",
+          "text": "Which chargers are compatible with iCharge?",
           "variant": "h5"
         },
         {
-          "text": "Social media marketing is the use of social media platforms and websites to promote a product or service and is becoming more popular."
+          "text": "iCharge can support any OCPP compliant charger. This is a communication protocol that allows chargers to connect to 3rd party systems like iCharge. You can check the manufacturer's data sheet to see if they are OCPP compliant."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -42,15 +42,15 @@
     {
       "text": [
         {
-          "text": "What are some examples of permitted end products?",
+          "text": "Do I need to sign a contract with iCharge?",
           "variant": "h5"
         },
         {
-          "text": "Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online."
+          "text": "No, you are free to come and go as you choose. Our Terms & Conditions apply when using the app, which provides all necessary protection for your payments, etc."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -58,11 +58,11 @@
     {
       "text": [
         {
-          "text": "Are item packs/bundles still limited to a single-end product?",
+          "text": "When do I receive payment for sessions at my locations?",
           "variant": "h5"
         },
         {
-          "text": "Social media marketing is the use of social media platforms and websites to promote a product or service and is becoming more popular."
+          "text": "iCharge triggers payment on the 1st day of every calendar month. This payment includes all sessions from the previous month."
         }
       ],
 

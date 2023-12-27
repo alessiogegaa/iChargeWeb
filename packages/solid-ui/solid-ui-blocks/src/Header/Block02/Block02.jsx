@@ -40,8 +40,8 @@ const styles = {
   },
   header: {
     justifyContent: `space-between`,
-    alignItems: `center`
-    // height: [`6rem`, `7rem`], //prevent layout shift
+    alignItems: `center`,
+    height: [`6rem`, `7rem`], //prevent layout shift
   },
   logoContainer: {
     flexShrink: 0,

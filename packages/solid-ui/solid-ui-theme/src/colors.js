@@ -2,20 +2,20 @@ import colors from './color-preset'
 
 //Primary
 const alpha = {
-  alphaLighter: colors.indigo[100],
-  alphaLight: colors.indigo[300],
-  alpha: colors.indigo[500],
-  alphaDark: colors.indigo[600],
-  alphaDarker: colors.indigo[800]
+  alphaLighter: colors.purple[100],
+  alphaLight: colors.purple[300],
+  alpha: colors.purple[500],
+  alphaDark: colors.purple[600],
+  alphaDarker: colors.purple[800]
 }
 
 // Secondary
 const beta = {
-  betaLighter: colors.purple[100],
-  betaLight: colors.purple[300],
-  beta: colors.purple[500],
-  betaDark: colors.purple[600],
-  betaDarker: colors.purple[800]
+  betaLighter: colors.green[100],
+  betaLight: colors.green[300],
+  beta: colors.green[500],
+  betaDark: colors.green[600],
+  betaDarker: colors.green[800]
 }
 
 // Reserved

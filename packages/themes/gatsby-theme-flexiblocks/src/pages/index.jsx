@@ -54,9 +54,9 @@ const HomePage = props => {
       <Divider space='5' />
       <ContentTwo content={content['solutions']} />
       <Divider space='5' />
-      {/*<HowItWorks content={content['how-it-works']} />
+      <HowItWorks content={content['how-it-works']} />
       <Divider space='5' />
-      <Divider space='5' />
+     {/* <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={4} variant='pill'>
           <FeatureTabOne content={content['feature-tab-one']} />

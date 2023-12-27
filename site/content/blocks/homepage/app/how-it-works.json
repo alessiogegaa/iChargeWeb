@@ -1,26 +1,26 @@
 {
   "text": [
     {
-      "text": "Have Fun Learn Fast",
+      "text": "Power on iCharge.",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "See How It Works",
+      "text": "Fast. Simple. Reliable.",
       "variant": "h2"
     },
     {
-      "text": "We help our clients achieve tangible, high-impact results.",
+      "text": "Say goodbye to poor charging experiences.",
       "variant": "medium"
     },
     {
-      "text": "Tempor incididunt ut labore et dolore magna aliqua.",
+      "text": "Combined with the latest payment innovations and an intuitive interface, it gives you the power to charge with a single tap.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/app/how-it-works.png",
+      "src": "../../../assets/flexiblocks/homepage/app/appImage.webp",
       "alt": "alt text"
     }
   ],
@@ -28,72 +28,72 @@
     {
       "text": [
         {
-          "text": "Listening and Speaking",
+          "text": "Quality over quantity",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          "text": "Instead of showing you every charger that ever existed, we show you the ones we trust. It allows us to always show you information about availability, pricing and power."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Fun, Bite-Sized Lessons",
+          "text": "Secure",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+          "text": "You will receive a free iChargekey with a subscription (free or paid plans available) to tap on the charger. It works seamlessly with the app and is the first charging key ever to come with built-in security against theft, copying or emulating."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Unlimited Lessons",
+          "text": "Convenient",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporCharge with Apple Pay, Google Pay, credit or debit right after downloading the app. You can choose to log in, subscribe or charge anonymously."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Daily Goals and Ranking",
+          "text": "Clear prices",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+          "text": "We always show the cost of charging before you start. During the session, we display real-time cost calculations. Immediately after charging we provide an invoice that you can store or share, or you can subscribe for a monthly invoice."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Native Teachers",
+          "text": "Community driven",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+          "text": "Share public chargers with your colleagues, neighbours or friends with iCharge Charging Groups. Together you make sure the chargers are available when you need them."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Useful Everyday Phrases",
+          "text": "Enable payments",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+          "text": "Get paid for usage of your chargers. Connect your car park and start earning. "
         }
       ]
     }
