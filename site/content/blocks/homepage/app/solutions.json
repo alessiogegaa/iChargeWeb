@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Explore some of our solutions",
+      "text": "Shërbimet dhe Veçoritë",
       "variant": "h2"
     }
   ],
@@ -17,12 +17,9 @@
       },
       "text": [
         {
-          "text": "Home Charging",
+          "text": "Instalim dhe Konfigurim",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Stay in control of your at-home EV charging experience."
         }
       ]
     },
@@ -37,12 +34,9 @@
       },
       "text": [
         {
-          "text": "Workplaces",
+          "text": "Konsulencë",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Offer your employees EV charging benefits at work and at home."
         }
       ]
     },
@@ -57,12 +51,9 @@
       },
       "text": [
         {
-          "text": "Charge Point Installers",
+          "text": "Menaxhimi i Kartave RFID",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Hassle-free charge point installations."
         }
       ]
     },
@@ -77,12 +68,9 @@
       },
       "text": [
         {
-          "text": "Residential Properties",
+          "text": "Ndarja me familjen",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Get charging stations set up for your residents."
         }
       ]
     },
@@ -97,12 +85,9 @@
       },
       "text": [
         {
-          "text": "Charge Point Operators",
+          "text": "Ndërfaqe Miqësore ndaj Përdoruesit",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Effortlessly set up and manage charging sites of any size, all in one place."
         }
       ]
     },
@@ -117,12 +102,9 @@
       },
       "text": [
         {
-          "text": "Power Utilities",
+          "text": "Menaxhimi i Bilancit",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Offer your customers exclusive energy management features."
         }
       ]
     },
@@ -137,12 +119,9 @@
       },
       "text": [
         {
-          "text": "EV Fleets",
+          "text": "Gjeneratori i Kodit QR",
           "color": "omegaDarker",
           "variant": "h5"
-        },
-        {
-          "text": "Manage your EV fleet's power needs efficiently."
         }
       ]
     },
@@ -157,12 +136,60 @@
       },
       "text": [
         {
-          "text": "Commercial and Retail",
+          "text": "Pavaruar ndaj Harduerit",
           "color": "omegaDarker",
           "variant": "h5"
-        },
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
         {
-          "text": "Allow EV drivers to charge at your retail location with ease."
+          "text": "Raporte dhe Statistika",
+          "color": "omegaDarker",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Bazuar në Cloud",
+          "color": "omegaDarker",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "bg": "omegaLighter",
+        "color": "omegaDark"
+      },
+      "text": [
+        {
+          "text": "Aplikacion Mobile          ",
+          "color": "omegaDarker",
+          "variant": "h5"
         }
       ]
     }

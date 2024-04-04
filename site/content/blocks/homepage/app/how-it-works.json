@@ -1,21 +1,9 @@
 {
   "text": [
     {
-      "text": "Power on iCharge.",
+      "text": "Disa nga Avantazhet",
       "color": "beta",
-      "variant": "h4"
-    },
-    {
-      "text": "Fast. Simple. Reliable.",
-      "variant": "h2"
-    },
-    {
-      "text": "Say goodbye to poor charging experiences.",
-      "variant": "medium"
-    },
-    {
-      "text": "Combined with the latest payment innovations and an intuitive interface, it gives you the power to charge with a single tap.",
-      "variant": "medium"
+      "variant": "h1"
     }
   ],
   "images": [
@@ -28,72 +16,96 @@
     {
       "text": [
         {
-          "text": "Quality over quantity",
+          "text": "Karikimi në Shtëpi          ",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Instead of showing you every charger that ever existed, we show you the ones we trust. It allows us to always show you information about availability, pricing and power."
+          "text": "Mbani ne kontroll kohen dhe shpejtesine e karikimit në shtëpi."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Secure",
+          "text": "Vendet e Punës",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "You will receive a free iChargekey with a subscription (free or paid plans available) to tap on the charger. It works seamlessly with the app and is the first charging key ever to come with built-in security against theft, copying or emulating."
+          "text": "Ofrojini punonjësve tuaj përfitime nga karikimi i EV-ve në punë dhe në shtëpi."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Convenient",
+          "text": "Instaluesit e Pikave të Karikimit",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporCharge with Apple Pay, Google Pay, credit or debit right after downloading the app. You can choose to log in, subscribe or charge anonymously."
+          "text": "Suport dhe konsulence per instaluesit e pikave të karikimit."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Clear prices",
+          "text": "Pronat Rezidenciale",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "We always show the cost of charging before you start. During the session, we display real-time cost calculations. Immediately after charging we provide an invoice that you can store or share, or you can subscribe for a monthly invoice."
+          "text": "Vendosni stacione karikimi për banorët tuaj.          "
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Community driven",
+          "text": "Operatorët e Pikave të Karikimit",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Share public chargers with your colleagues, neighbours or friends with iCharge Charging Groups. Together you make sure the chargers are available when you need them."
+          "text": "Vendosni dhe menaxhoni me lehtësi vendet e karikimit të çdo madhësie, të gjitha në një vend."
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Enable payments",
+          "text": "Shërbimet e Energjisë          ",
           "color": "alpha",
           "variant": "h5"
         },
         {
-          "text": "Get paid for usage of your chargers. Connect your car park and start earning. "
+          "text": "Ofrojini klientëve tuaj veçori ekskluzive të menaxhimit të energjisë.          "
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Flotat e EV          ",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Menaxhoni me efikasitet nevojat e energjisë së flotës suaj të EV.         "
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Tregti dhe Shitje me Pakicë ",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Lejoni shoferët e EV të karikojnë prane biznevese tuaja tregtare.          "
         }
       ]
     }

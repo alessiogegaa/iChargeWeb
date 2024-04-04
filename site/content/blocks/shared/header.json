@@ -10,56 +10,39 @@
     {
       "buttons": [
         {
-          "text": "HOME",
+          "text": "PLATFORMA JONE",
           "type": "ANCHOR",
-          "variant": "links.nav-dark",
-          "link":"#hero",
-          "color":"white"
+          "link":"#heroContent"
         },
         {
-          "text": "Pricing",
+          "text": "SHERBIMET TONA",
           "type": "ANCHOR",
-          "link": "#pricing",
-          "variant": "links.nav-dark"
+          "link": "#feature-one"
         },
         {
-          "text": "Help & Support",
-          "type": "SUB",
-          "variant": "links.nav-dark",
-          "buttons": [
-            {
-              "text": "FAQ",
-              "type": "ANCHOR",
-              "link": "#faq",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/faq.svg",
-                "color": "#276BF0"
-              }
-            },
-            {
-              "text": "IMPLEMENTATION GUIDE",
-              "type": "ANCHOR",
-              "link": "#features",
-              "variant": "links.nav-dark",
-              "icon": {
-                "src": "../../assets/flexiblocks/icons/guide.svg",
-                "color": "#000000"
-              }
-            }
-          ]
+          "text": "FINANCIM",
+          "type": "ANCHOR",
+          "link": "#pricing"
+        },
+        {
+          "text": "RRETH NESH",
+          "type": "ANCHOR",
+          "link": "#map"
+        },
+        {
+          "text": "KONTAKT",
+          "type": "MODAL",
+          "link": "contact"
         }
-
       ]
     }, 
        
     {
       "buttons": [
         {
-          "text": "Contact Us",
-          "type": "MODAL",
-          "link": "contact",
-          "variant": "secondary"
+          "text": "DOWNLOAD",
+          "type": "ANCHOR",
+          "link": "#footer"
         }
       ]
     }

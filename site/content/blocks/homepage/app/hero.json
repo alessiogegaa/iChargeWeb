@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "All your charging.",
+      "text": "Mirësevini në të Ardhmen e Karikimit të Automjeteve Elektrike (EV)",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "Just one Tap",
+      "text": "Kompatibel me protokollin OCPP",
       "color": "black",
-      "variant": "h1"
+      "variant": "h2"
     },
     {
-      "text": "Take complete control of EV charging from anywhere with iCharge",
+      "text": " Platforma jonë synon të revolucionarizojë mënyrën se si menaxhoni stacionet e karikimit të EV-ve, duke ofruar një zgjidhje me kosto te ulet, miqësore ndaj përdoruesit dhe e pavarur ndaj prodhuesve hardware. ",
       "color": "alphaLighter",
       "variant": "medium"
     }

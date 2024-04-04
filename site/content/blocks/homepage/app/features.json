@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "PROVIDING THE VALUE",
+      "text": "Pse të Zgjidhni Platformën Tonë?"      ,
       "variant": "h2"
     }
   ],
@@ -12,12 +12,12 @@
       },
       "text": [
         {
-          "text": "EMPS AND CPOS",
+          "text": "Kompatibilitet Universal",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Managing a diverse portfolio of charging stations in multiple locations as well as staff management and advertising platform."
+          "text": "Zgjidhja jonë lejon integrimin pa probleme të çdo stacioni të karikimit kompatible me protokollin OCPP dhe Grid 104           "
         }
       ],
       "icon": {
@@ -32,16 +32,16 @@
       },
       "text": [
         {
-          "text": "EV DRIVERS",
+          "text": "Kosto-efektive",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Comfortable and safe charging on the go with an option to manage home charger from a single app."
+          "text": " Sistemi ynë është projektuar për të qenë ekonomik, duke ju ofruar cilësi të lartë me koston më të ulët."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/electriccar.svg",
+        "src": "../../../assets/flexiblocks/icons/powerline.svg",
         "bg": "#FFF3CC",
         "color": "#FF9D01"
       }
@@ -52,16 +52,16 @@
       },
       "text": [
         {
-          "text": "POWER GRID",
+          "text": "Lehtësi në Përdorim",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Reducing the burdain of EV charging on the power grid can be achieved by demand-response enabling features."
+          "text": "Platforma ofron një ndërfaqe intuitive që lehtëson menaxhimin e stacioneve të karikimit."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/powerline.svg",
+        "src": "../../../assets/flexiblocks/icons/electriccar.svg",
         "bg": "#FEE8D1",
         "color": "#F7491D"
       }

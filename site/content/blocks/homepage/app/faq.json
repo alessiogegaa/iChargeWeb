@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Frequently Asked Questions",
+      "text": "Pyetje te shpeshta",
       "color": "beta",
       "variant": "h2"
     }
@@ -10,11 +10,11 @@
     {
       "text": [
         {
-          "text": "How much does iCharge cost?",
+          "text": "Cilet karikues janë kompatibel me iCharge?",
           "variant": "h5"
         },
         {
-          "text": "With iCharge, there are never any fees towards charger owners. iCharge adds a service fee to the driver. This service fee starts at 10% for pay-as-you-go drivers, and if they subscribe to iCharge Electric goes down to 0% depending on which subscription they choose. So, you get paid the tariff that you set in the app, and the driver pays the rate we show them in the app before the session starts. It's clear for everyone and we don't add any unnecessary costs in the chain - fair is fair!"
+          "text": "iCharge mund të mbështesë çdo karikues në përputhje me OCPP. Ky është një protokoll komunikimi që lejon karikuesit të lidhen me sisteme të palëve të treta si iCharge. Ju mund të kontrolloni dokumentacionin teknik te karikuesit tuaj per kompatibilitetin me OCPP.          "
         }
       ],
       "icon": {
@@ -26,11 +26,11 @@
     {
       "text": [
         {
-          "text": "Which chargers are compatible with iCharge?",
+          "text": "A duhet të nënshkruaj një kontratë me iCharge?          ",
           "variant": "h5"
         },
         {
-          "text": "iCharge can support any OCPP compliant charger. This is a communication protocol that allows chargers to connect to 3rd party systems like iCharge. You can check the manufacturer's data sheet to see if they are OCPP compliant."
+          "text": "Jo, ju jeni të lirë të lidhni dhe te shkepusni karikuesit tuaj nga platforma sa here te deshironi. Kushtet & Rregullat tona zbatohen kur përdorni aplikacionin, të cilat ofrojnë të gjitha mbrojtjet e nevojshme per te dhenat tuaja.          "
         }
       ],
       "icon": {
@@ -42,11 +42,11 @@
     {
       "text": [
         {
-          "text": "Do I need to sign a contract with iCharge?",
+          "text": "Sa kohe duhet per konfigurimin e nje karikuesi?",
           "variant": "h5"
         },
         {
-          "text": "No, you are free to come and go as you choose. Our Terms & Conditions apply when using the app, which provides all necessary protection for your payments, etc."
+          "text": "Kërkesa kryesore për mundësinë e lidhjes së një karikuesi është lidhja e internetit. Zakonisht, koha e nevojshme për të konfiguruar një karikues zgjat më pak se një orë. Megjithatë, kjo mund të variojë në varësi të rrethanave dhe mundësive për lidhjen fizike të internetit.           "
         }
       ],
       "icon": {
@@ -58,11 +58,11 @@
     {
       "text": [
         {
-          "text": "When do I receive payment for sessions at my locations?",
+          "text": "Si mund te perdor applikacionin Mobile?          ",
           "variant": "h5"
         },
         {
-          "text": "iCharge triggers payment on the 1st day of every calendar month. This payment includes all sessions from the previous month."
+          "text": "Ju mund të krijoni llogaritë e klientëve tuaj në platformë dhe t'u mundësoni atyre identifikimin nëpërmjet aplikacionit mobil. Përdoruesit kanë mundësinë të përdorin aplikacionin mobil për të marrë informacione rreth vendndodhjeve të karikuesve, të nisin procesin e karikimit, si dhe të ruajnë dhe konsultojnë historikun e tyre, etj."
         }
       ],
 

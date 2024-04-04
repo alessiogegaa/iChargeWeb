@@ -1,0 +1,224 @@
+.header {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .header .nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+  }
+  
+  .header .nav-container .mobileMenu .mobile-menu-items {
+    background-color: white;
+    color: black;
+  }
+  
+  .nav-sticky .nav-container {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-sticky .nav-container .header-link {
+    color: black;
+  }
+  
+  .logoContainer {
+    flex-shrink: 0;
+  }
+  
+  .logoContainer a {
+    text-decoration: none;
+  }
+  
+  .logoContainer img {
+    width: auto;
+    max-height: 60px;
+  }
+  
+  .header-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-links li:last-child {
+    margin-right: -10px;
+  }
+  
+  .header-links li:last-child a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #33b04a;
+    color: white;
+    border: 2px solid #33b04a;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .header-links li:last-child a:hover {
+    background-color: #33b04a;
+    border-color: #33b04a;
+  }
+  
+  .header-links li:last-child .header-link::after {
+    display: none;
+  }
+  
+  .header-links li {
+    margin-right: 20px;
+  }
+  
+  .header-links li:not(:last-child) {
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .header-link::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: white;
+    transition: width 0.6s ease-out;
+  }
+  
+  .header-link:hover::after {
+    width: 100%;
+  }
+  
+  .mobileMenu {
+    display: none;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 95%;
+  }
+  
+  .mobile-menu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-menu-items.open {
+    display: block;
+  }
+  
+  .mobile-menu-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .mobile-menu-items ul li {
+    margin: 10px 0;
+  }
+  
+  .mobile-menu-items .header-link:not(:last-child) {
+    color: black;
+  }
+  
+  .mobile-menu-items a {
+    text-decoration: none;
+  }
+  
+  @media (min-width: 769px) {
+    .logoContainer a {
+      margin-right: 20em;
+    }
+  
+    .header .nav-container {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    
+  
+    .header-links {
+      display: none; 
+    }
+  
+    .mobileMenu {
+      display: block;
+      cursor: pointer;
+      padding: 0 15px;
+    }
+  
+    .menu-icon {
+      font-size: 24px;
+      transition: transform 0.3s ease;
+    }
+  
+    .mobile-menu-items {
+      display: none;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 0;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .mobile-menu-items.open {
+      display: block;
+    }
+  
+    .mobile-menu-items ul {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .mobile-menu-items ul li {
+      margin: 10px 0;
+      color: black;
+    }
+  
+    .mobile-menu-items a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+  
+    .mobile-menu-items a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  
+    .header-link {
+      color: black;
+    }
+  }

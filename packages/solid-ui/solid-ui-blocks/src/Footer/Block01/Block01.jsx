@@ -35,7 +35,7 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
               </GLink>
             </Box>
             <Box pt='2' mb={[2, 4]} sx={{ color: 'white' }}>
-              © {new Date().getFullYear()} Magoware. All right reserved.
+              © {new Date().getFullYear()}  All right reserved.
             </Box>
             <Box>
               
