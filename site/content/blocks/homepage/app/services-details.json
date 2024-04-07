@@ -51,7 +51,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/electricCar.svg",
+        "src": "../../../assets/flexiblocks/icons/electriccar.svg",
         "size": "lg",
         "color": "omegaDark"
       },

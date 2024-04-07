@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link as GLink } from 'gatsby'
-import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css } from 'theme-ui'
-import Reveal from '@solid-ui-components/Reveal'
-import Drawer from '@solid-ui-components/Drawer'
-import ContentImages from '@solid-ui-components/ContentImages'
-import ContentButtons from '@solid-ui-components/ContentButtons'
-import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import React, { useState, useRef, useEffect } from 'react';
+import { Link as GLink } from 'gatsby';
+import Sticky from 'react-sticky-el';
+import { Container, Box, Flex, css } from 'theme-ui';
+import Reveal from '@solid-ui-components/Reveal';
+import Drawer from '@solid-ui-components/Drawer';
+import ContentImages from '@solid-ui-components/ContentImages';
+import ContentButtons from '@solid-ui-components/ContentButtons';
+import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent';
 
 const styles = {
   wrapper: {
@@ -16,11 +16,15 @@ const styles = {
       bg: `headerBg`,
       position: `fixed`,
       transition: `all 250ms ease-in`,
-      // overflow: `hidden`,
       py: 3,
       '.button-group-link.level-1' : {
         color:'white'
       },
+      '@media screen and (max-width: 768px)': {
+        '.button-group-link.level-1': {
+          color: 'black' 
+        }
+      }
     },
     '.nav-sticky .nav-container': {
       bg: `headerActiveBg`,
@@ -30,7 +34,6 @@ const styles = {
         color: `headerActiveColor`
       }
     },
-    //Make buttons in header smaller
     '.button-group-button': {
       minWidth: 120,
       fontSize: 1,
@@ -53,9 +56,10 @@ const styles = {
     flexGrow: 1
   },
   mobileMenu: {
-    display: [`block`, null, `none`]
+    display: [`block`, null, `none`],
+    
   }
-}
+};
 
 const HeaderBlock02 = ({ content: { images, collection }, menuJustify }) => {
   const logoStyles = {
@@ -146,6 +150,6 @@ const HeaderBlock02 = ({ content: { images, collection }, menuJustify }) => {
 
 HeaderBlock02.defaultProps = {
   menuJustify: `flex-end`
-}
+};
 
-export default WithDefaultContent(HeaderBlock02)
+export default WithDefaultContent(HeaderBlock02);
