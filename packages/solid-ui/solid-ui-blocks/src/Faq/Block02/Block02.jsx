@@ -13,9 +13,9 @@ const FaqBlock02 = ({ content: { text, collection } }) => (
       <ContentText content={text} />
     </Box>
     {text && collection && <Divider />}
-    <Flex sx={{ flexWrap: `wrap`, m: -3 }}>
+    <Flex sx={{ flexWrap: `wrap`, justifyContent: 'space-between' }}>
       {collection?.map(({ container, ...props }, index) => (
-        <Box key={`item-${index}`} sx={{ flexBasis: [`1`, `1/2`] }}>
+        <Box key={`item-${index}`} sx={{ flexBasis: ['100%', 'calc(50% - 32px)'], mb: [3, 0] }}>
           <ContentContainer content={container} p='4'>
             <ListItem {...props} middle iconProps={{ mr: 2 }} />
           </ContentContainer>
@@ -26,3 +26,4 @@ const FaqBlock02 = ({ content: { text, collection } }) => (
 )
 
 export default WithDefaultContent(FaqBlock02)
+
