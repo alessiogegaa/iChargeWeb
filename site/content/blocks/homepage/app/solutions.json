@@ -113,7 +113,7 @@
         "variant": "cards.paper"
       },
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/car.svg",
+        "src": "../../../assets/flexiblocks/icons/qrCode.svg",
         "bg": "omegaLighter",
         "color": "omegaDark"
       },
@@ -130,7 +130,7 @@
         "variant": "cards.paper"
       },
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "src": "../../../assets/flexiblocks/icons/hardware.svg",
         "bg": "omegaLighter",
         "color": "omegaDark"
       },
@@ -147,7 +147,7 @@
         "variant": "cards.paper"
       },
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "src": "../../../assets/flexiblocks/icons/statistics.svg",
         "bg": "omegaLighter",
         "color": "omegaDark"
       },
@@ -164,7 +164,7 @@
         "variant": "cards.paper"
       },
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "src": "../../../assets/flexiblocks/icons/cloud.svg",
         "bg": "omegaLighter",
         "color": "omegaDark"
       },
@@ -181,7 +181,7 @@
         "variant": "cards.paper"
       },
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/commercial.svg",
+        "src": "../../../assets/flexiblocks/icons/mobileApp.svg",
         "bg": "omegaLighter",
         "color": "omegaDark"
       },

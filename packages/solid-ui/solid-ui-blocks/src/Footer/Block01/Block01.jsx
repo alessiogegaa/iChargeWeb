@@ -16,39 +16,32 @@ const styles = {
     justifyContent: `space-between`,
     alignItems: [`center`, `flex-start`],
     py: 5
-  },
-  logoContainer: {
-    width: '200px',
-    height: '60px',
-  },
+  }
 }
 
 const FooterBlock01 = ({ content: { images, collection } }) => {
   return (
     <Box sx={styles.wrapper}>
-      <Container px='4'>
+      <Container px='6'>
         <Flex sx={styles.footer}>
           <Box sx={{ minWidth: 200 }}>
             <Box pb='1' mb='2' mt={[4, 0]}>
               <GLink to='/'>
-                <ContentImages content={{ images }} imageEffect='fadeIn' sx={styles.logoContainer} /> {/* Apply the logo styles here */}
+                <ContentImages content={{ images }} imageEffect='fadeIn' sx={{width: 210, height:60}}/>
               </GLink>
             </Box>
             <Box pt='2' mb={[2, 4]} sx={{ color: 'white' }}>
-              © {new Date().getFullYear()}  All right reserved.
+              © {new Date().getFullYear()}, All Rights Reserved.
             </Box>
-            <Box>
-              
-            </Box>
+           
+          
           </Box>
-          {collection?.map(
-            ({ text, buttons }, index) =>
-              buttons && (
+          {collection?.map(({ text, buttons }, index) => buttons && (
                 <Box key={`item-${index}`} mb='3'>
                   <ContentText
                     content={text?.[0]}
                     variant='h5'
-                    sx={{ display: [`none`, `block`], color: 'white' }}
+                    sx={{ display: [`none`, `block`], color:'white' }}
                   />
                   <ContentButtons
                     content={buttons}
@@ -58,6 +51,7 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
                       flexWrap: `wrap`,
                       justifyContent: `center`
                     }}
+                    sx={{color: 'white'}}
                   />
                 </Box>
               )

@@ -12,27 +12,32 @@
         {
           "text": "PLATFORMA JONE",
           "type": "ANCHOR",
-          "link":"#heroContent"
+          "link":"#hero",
+          "variant": "links.nav-dark"
         },
         {
           "text": "SHERBIMET TONA",
           "type": "ANCHOR",
-          "link": "#feature-one"
+          "link": "#solutions",
+          "variant": "links.nav-dark"
         },
         {
           "text": "FINANCIM",
           "type": "ANCHOR",
-          "link": "#pricing"
+          "link": "#team",
+          "variant": "links.nav-dark"
         },
         {
           "text": "RRETH NESH",
           "type": "ANCHOR",
-          "link": "#map"
+          "link": "#how-it-works",
+          "variant": "links.nav-dark"
         },
         {
           "text": "KONTAKT",
           "type": "MODAL",
-          "link": "contact"
+          "link": "contact",
+          "variant": "links.nav-dark"
         }
       ]
     }, 
@@ -42,7 +47,8 @@
         {
           "text": "DOWNLOAD",
           "type": "ANCHOR",
-          "link": "#footer"
+          "link": "#footer",
+          "variant": "secondary"
         }
       ]
     }

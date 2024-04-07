@@ -41,7 +41,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/powerline.svg",
+        "src": "../../../assets/flexiblocks/icons/cost.svg",
         "bg": "#FFF3CC",
         "color": "#FF9D01"
       }
@@ -61,7 +61,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/electriccar.svg",
+        "src": "../../../assets/flexiblocks/icons/powerline.svg",
         "bg": "#FEE8D1",
         "color": "#F7491D"
       }

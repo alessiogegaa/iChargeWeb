@@ -9,93 +9,56 @@
     {
       "text": [
         {
-          "text": "Quick Links"
+          "text": "DOWNLOAD THE APP",
+          "color": "alphaLight"
         }
       ],
       "buttons": [
         {
-          "text": "Home",
-          "type": "ANCHOR",
-          "link": "#hero",
-          "variant": "links.nav-light"
+          "text": "Get it on Google Play",
+          "type": "APP",
+          "link": "/",
+          "variant": "google",
+          "target":"_blank"
         },
         {
-          "text": "Blog",
-          "type": "MODAL",
-          "link": "advertisement",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Contact Us",
-          "type": "MODAL",
-          "link": "contact",
-          "variant": "links.nav-light"
+          "text": "Download on the App Store",
+          "type": "APP",
+          "link": "/",
+          "variant": "apple",
+          "target":"_blank"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Legal Stuff"
+          "text": "Social Media",
+          "color": "alphaLight"
         }
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "TikTok",
           "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Cookie Policy",
-          "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Terms Of Use",
-          "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Social Media"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Github",
-          "type": "PAGE",
-          "link": "https://github.com/gatsby",
+          "link": "https://www.tiktok.com/",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
-          }
-        },
-        {
-          "text": "Twitter",
-          "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
+            "src": "../../assets/flexiblocks/icons/tiktok.svg",
             "color": "#1da1f2"
-          }
+          },
+          "target":"_blank"
         },
         {
           "text": "Instagram",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
+          "link": "https://www.instagram.com/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
             "color": "#c13584"
-          }
+          },
+          "target":"_blank"
         }
       ]
     }

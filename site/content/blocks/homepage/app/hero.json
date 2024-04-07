@@ -15,19 +15,5 @@
       "color": "alphaLighter",
       "variant": "medium"
     }
-  ],
-  "buttons": [
-    {
-      "text": "Get it on Google Play",
-      "type": "APP",
-      "link": "",
-      "variant": "google"
-    },
-    {
-      "text": "Download on the App Store",
-      "type": "APP",
-      "link": "",
-      "variant": "apple"
-    }
   ]
 }

@@ -8,7 +8,7 @@
           "variant": "h1"
         },
         {
-          "text": "Active Users",
+          "text": "Perdorues aktive",
           "color": "beta",
           "variant": "h5"
         }
@@ -22,7 +22,7 @@
           "variant": "h1"
         },
         {
-          "text": "Downloads",
+          "text": "Shkarkime",
           "color": "beta",
           "variant": "h5"
         }
@@ -36,7 +36,7 @@
           "variant": "h1"
         },
         {
-          "text": "Positive Feedback",
+          "text": "Reagime Pozitive",
           "color": "beta",
           "variant": "h5"
         }
@@ -50,7 +50,7 @@
           "variant": "h1"
         },
         {
-          "text": "A++ Rating",
+          "text": "Vleresime A++",
           "color": "beta",
           "variant": "h5"
         }

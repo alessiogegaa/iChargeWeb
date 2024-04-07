@@ -3,20 +3,16 @@
     {
       "text": [
         {
-          "text": "Questions"
+          "text": "Pyetje"
         },
         {
-          "text": "Get in Touch",
+          "text": "Na Kontaktoni",
           "color": "omegaDarker",
           "variant": "h2",
           "space": 3
         },
         {
-          "text": "Any questions or remarks?",
-          "color": "omegaDark"
-        },
-        {
-          "text": "We'll get back you within 24 hours.",
+          "text": "Do t'ju pergjigjemi brenda 24 oreve",
           "color": "omega"
         }
       ],
@@ -31,7 +27,7 @@
                 "identifier": "name",
                 "type": "TEXT",
                 "placeholder": {
-                    "text": "First Name"
+                    "text": "Emer"
                 },
                 "required": true,
                 "icon": {
@@ -43,7 +39,7 @@
                 "identifier": "Lastname",
                 "type": "TEXT",
                 "placeholder": {
-                    "text": "Last Name"
+                    "text": "Mbiemer"
                 },
                 "required": true,
                 "icon": {
@@ -55,7 +51,7 @@
                 "identifier": "email",
                 "type": "EMAIL",
                 "placeholder": {
-                    "text": "Email Address"
+                    "text": "Email"
                 },
                 "required": true,
                 "icon": {
@@ -67,7 +63,7 @@
                 "identifier": "phoneNumber",
                 "type": "TEXT",
                 "placeholder": {
-                    "text": "Phone Number"
+                    "text": "Numri i Telefonit"
                 },
                 "required": true,
                 "icon": {
@@ -76,50 +72,10 @@
                 }
             },
             {
-                "identifier": "CompanyName",
-                "type": "TEXT",
-                "placeholder": {
-                    "text": "Company Name"
-                },
-                "required": true,
-                "icon": {
-                  "src": "../../assets/flexiblocks/icons/company.svg",
-                  "color": "alpha"
-                }
-            },
-            {
-                "identifier": "Industry",
-                "type": "TEXT",
-                "placeholder": {
-                    "text": "Industry"
-                },
-                "required": true,
-                "icon": {
-                  "src": "../../assets/flexiblocks/icons/hospitality.svg",
-                  "color": "alpha"
-                }
-            },
-            {
-                "identifier": "Contact_Topic",
-                "type": "TEXT",
-                "placeholder": {
-                    "text": "Demo | Help | Sales | Become a Partner"
-                },
-                "required": true
-            },
-            {
-                "identifier": "Number_of_Subscribers",
-                "type": "TEXT",
-                "placeholder": {
-                    "text": "Number of Subscribers"
-                },
-                "required": true
-            },
-            {
                 "identifier": "message",
                 "type": "TEXTAREA",
                 "placeholder": {
-                    "text": "Enter your message"
+                    "text": "Mesazhi"
                 },
                 "required": true
             }
@@ -129,7 +85,7 @@
     
         "buttons": [
           {
-            "text": "Send Message",
+            "text": "Dergo",
             "type": "SUBMIT",
             "variant": "secondary",
             "width": "200px"
@@ -140,20 +96,16 @@
     {
       "text": [
         {
-          "text": "Information"
+          "text": "Informacion"
         },
         {
-          "text": "Contact Details",
+          "text": "Detajet e Kontaktit",
           "color": "omegaDarker",
           "variant": "h2",
           "space": 3
         },
         {
-          "text": "Have some feedback for us?",
-          "color": "omegaDark"
-        },
-        {
-          "text": "Give us a call or send an email.",
+          "text": "Na telefononi ose na dergoni nje email",
           "color": "omega"
         }
       ],
@@ -166,7 +118,7 @@
         {
           "text": [
             {
-              "text": "+1 (302) 202 3646",
+              "text": "+355 69 232 5111",
               "color": "omegaDarker",
               "variant": "h6"
             }
@@ -180,7 +132,7 @@
         {
           "text": [
             {
-              "text": "info@magoware.tv",
+              "text": "office@icharge.app",
               "color": "omegaDarker",
               "variant": "h6"
             }
@@ -194,7 +146,7 @@
         {
           "text": [
             {
-              "text": "Kavaja Street  No.7,  Bld.132/4, Tirana",
+              "text": "Rr. Barikava 122, Tiranë",
               "color": "omegaDarker",
               "variant": "h6"
             }

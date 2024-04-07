@@ -1,0 +1,89 @@
+{
+  
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Kompanitë e Taksive",
+          "variant": "h4"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/taxi.svg",
+        "size": "lg",
+        "color": "omegaDark"
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Kompanitë e Transportit",
+          "variant": "h4"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/deliveryTransport.svg",
+        "size": "lg",
+        "color": "omegaDark"
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Shoferët e Veturave Elektrike",
+          "variant": "h4"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/electricCar.svg",
+        "size": "lg",
+        "color": "omegaDark"
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Sipermares te energjise elektrike",
+          "variant": "h4"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/electric.svg",
+        "size": "lg",
+        "color": "omegaDark"
+      },
+      "buttons": [
+        {
+          "text": "Learn More   ➜",
+          "type": "PAGE",
+          "link": "",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}
