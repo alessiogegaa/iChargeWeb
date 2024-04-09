@@ -4,7 +4,7 @@
  * [background colors] to blocks.
  *
  */
-import heroBg from '../marketing/assets/hero.webp'
+import heroBg from '../marketing/assets/hero.png'
 export default {
   heroContainer: {
     '::before': {
@@ -16,8 +16,8 @@ export default {
       zIndex: -1,
       background: t =>
         `linear-gradient(
-          rgba(0, 0, 0, 0.45),
-          rgba(0, 0, 0, 0.75)
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.8)
         ), url(${heroBg}) no-repeat center 0`,
       backgroundSize: `100%, cover`
     }
