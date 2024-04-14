@@ -52,7 +52,6 @@ const HeroBlock03 = ({
         <ContentText
           content={text?.[0]}
           sx={{
-            bg: `omegaDarker`,
             display: `inline-block`
           }}
           px='2'

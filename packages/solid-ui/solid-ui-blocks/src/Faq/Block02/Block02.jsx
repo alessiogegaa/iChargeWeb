@@ -15,15 +15,21 @@ const FaqBlock02 = ({ content: { text, collection } }) => (
     {text && collection && <Divider />}
     <Flex sx={{ flexWrap: `wrap`, justifyContent: 'space-between' }}>
       {collection?.map(({ container, ...props }, index) => (
-        <Box key={`item-${index}`} sx={{ flexBasis: ['100%', 'calc(50% - 32px)'], mb: [3, 0] }}>
+        <Box key={`item-${index}`} sx={{ width: ['100%', 'calc(50% - 32px)'], mb: [3, 0] }}>
           <ContentContainer content={container} p='4'>
-            <ListItem {...props} middle iconProps={{ mr: 2 }} />
+            <ListItemWrapper {...props} />
           </ContentContainer>
         </Box>
       ))}
     </Flex>
   </Container>
 )
+
+const ListItemWrapper = ({ middle, iconProps, ...rest }) => (
+  <Box sx={{ display: 'flex', alignItems: 'center' }}>
+    <ListItem {...rest} middle={middle} iconProps={{ ...iconProps, mr: 2 }} />
+  </Box>
+);
 
 export default WithDefaultContent(FaqBlock02)
 

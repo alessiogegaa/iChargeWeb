@@ -6,40 +6,7 @@
     }
   ],
   "collection": [
-    {
-      "container": {
-        "variant": "cards.paper"
-      },
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/home.svg",
-        "bg": "omegaLighter",
-        "color": "omegaDark"
-      },
-      "text": [
-        {
-          "text": "Instalim dhe Konfigurim",
-          "color": "omegaDarker",
-          "variant": "h5"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.paper"
-      },
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/computer.svg",
-        "bg": "omegaLighter",
-        "color": "omegaDark"
-      },
-      "text": [
-        {
-          "text": "Konsulencë",
-          "color": "omegaDarker",
-          "variant": "h5"
-        }
-      ]
-    },
+   
     {
       "container": {
         "variant": "cards.paper"
@@ -69,23 +36,6 @@
       "text": [
         {
           "text": "Ndarja me familjen",
-          "color": "omegaDarker",
-          "variant": "h5"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.paper"
-      },
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/operator.svg",
-        "bg": "omegaLighter",
-        "color": "omegaDark"
-      },
-      "text": [
-        {
-          "text": "Ndërfaqe Miqësore ndaj Përdoruesit",
           "color": "omegaDarker",
           "variant": "h5"
         }

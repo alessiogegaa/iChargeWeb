@@ -1,7 +1,8 @@
 {
-    "container": {
-      "bg": "linear-gradient(25deg, {{alpha}} 0%, {{beta}} 100%)"
-    },
+  "container": {
+    "bg": "linear-gradient(180deg, #ced9d2 5%, #6d7e78 100%)"
+  }
+  ,
     "text": [
       {
         "text": "Financim",

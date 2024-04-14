@@ -7,10 +7,14 @@ import { FormContextProvider } from '@solid-ui-components/ContentForm'
 import { ModalContextProvider } from '@solid-ui-components/Modal'
 import { TabsContextProvider } from '@solid-ui-components/Tabs'
 import ColorMode from '@solid-ui-components/ColorMode'
+import { Helmet } from 'react-helmet'; 
 
 const Layout = ({ children, pageContext = {}, location, theme = {} }) => {
   return (
     <ThemeProvider theme={merge(baseTheme, theme)}>
+      <Helmet>
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/143605925.js"></script>
+      </Helmet>
       <pageContextProvider.Provider value={{ pageContext, location }}>
         <FormContextProvider>
           <ModalContextProvider>

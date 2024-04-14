@@ -17,7 +17,7 @@
           "variant": "h5"
         },
         {
-          "text": "Zgjidhja jonë lejon integrimin pa probleme të çdo stacioni të karikimit kompatible me protokollin OCPP dhe Grid 104           "
+          "text": "Zgjidhja jonë lejon integrimin pa probleme të çdo stacioni të karikimit "
         }
       ],
       "icon": {
@@ -61,7 +61,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/powerline.svg",
+        "src": "../../../assets/flexiblocks/icons/useful.svg",
         "bg": "#FEE8D1",
         "color": "#F7491D"
       }
