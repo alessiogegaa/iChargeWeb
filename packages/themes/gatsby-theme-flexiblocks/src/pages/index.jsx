@@ -8,7 +8,7 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block02'
 import Team from '@solid-ui-blocks/Hero/Block03'
-import Hero from '@solid-ui-blocks/Hero/Block02'
+import Hero from '@solid-ui-blocks/Hero/Block04'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import Features from '@solid-ui-blocks/Features/Block06'
 import HowItWorks from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
@@ -33,16 +33,12 @@ const HomePage = props => {
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} />
-      </Container>
-      <Divider space='6' />
+      <Divider space='4' />
+      <Stats content={content['stats']} />
+      <Divider space='4' />
       <Container variant='wide' sx={styles.featuresContainer}>
         <Divider space={-6} />
-        <Stats content={content['stats']} />
-        <Divider space='4' />
         <Features content={content['features']} />
       </Container>
       <Divider space='5' />

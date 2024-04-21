@@ -6,6 +6,7 @@
     }
   ],
   "collection": [
+    
     {
       "text": [
         {
@@ -26,6 +27,35 @@
           "type": "APP",
           "link": "/",
           "variant": "apple",
+          "target":"_blank"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Na Kontakto"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "office@icharge.app",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Tirane, Rruga e Kavajes, Godina ne krah te Vetingut, Kati I",
+          "type": "PAGE",
+          "link": "/FAQs",
+          "variant": "links.nav-light",
+          "target":"_blank"
+        },
+        {
+          "text": "Kontakt",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "links.nav-light",
           "target":"_blank"
         }
       ]

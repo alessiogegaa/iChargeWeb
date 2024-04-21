@@ -62,6 +62,23 @@ const styles = {
 };
 
 const HeaderBlock02 = ({ content: { images, collection }, menuJustify }) => {
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const logoStyles = {
     width: '200px',
     height: '60px',
@@ -71,19 +88,19 @@ const HeaderBlock02 = ({ content: { images, collection }, menuJustify }) => {
     <>
       <Sticky
         enabled='true'
-        stickyClassName='nav-sticky'
+        stickyClassName={scrolled ? 'nav-sticky' : ''}
         css={css(styles.wrapper)}
       >
         <Container variant='full' className='nav-container'>
           <Container px='4'>
             <Flex sx={styles.header}>
-              <Box sx={{ ...styles.logoContainer, ...logoStyles }}> 
+              <Box sx={{ ...styles.logoContainer, ...logoStyles }}>
                 <GLink to='/'>
-                  <ContentImages
-                    content={{ images }}
-                    sx={styles.image}
-                    imageEffect='fadeIn'
-                  />
+                <ContentImages
+                 content={{ images: scrolled ? [images[0]] : [images[1]] }} 
+                 sx={styles.image}
+                 imageEffect={scrolled ? 'fadeIn' : 'none'}
+                />
                 </GLink>
               </Box>
               {collection && (

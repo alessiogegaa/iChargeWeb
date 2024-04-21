@@ -25,12 +25,12 @@ export default {
   
   featuresContainer: {
     position: `relative`,
-    py: [5, 6],
+    py: [6, 7],
     '::before': {
       position: `absolute`,
       content: `" "`,
       size: `full`,
-      top: -3,
+      top: 0,
       right: 0,
       zIndex: -1,
       borderRadius: `xl`,

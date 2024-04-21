@@ -101,7 +101,7 @@ const ContentImages = ({
           image.src && (
             <Reveal
               key={`item-${index}`}
-              effect={image.effects[0] || undefined}
+              effect={image.effects?.[0]} // Null check added here
               delay={0.5}
               css={css({
                 ...image.position,
@@ -110,7 +110,7 @@ const ContentImages = ({
               })}
             >
               <Reveal
-                effect={image.effects[1] || undefined}
+                effect={image.effects?.[1]} // Null check added here
                 style={{ backfaceVisibility: `hidden` }}
               >
                 <ImageComponent image={image} loading={loading} />

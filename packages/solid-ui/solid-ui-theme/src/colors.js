@@ -2,11 +2,11 @@ import colors from './color-preset'
 
 //Primary
 const alpha = {
-  alphaLighter: colors.violet[100],
-  alphaLight: colors.violet[300],
-  alpha: colors.violet[500],
-  alphaDark: colors.violet[600],
-  alphaDarker: colors.violet[800]
+  alphaLighter: colors.lightBlue[100],
+  alphaLight: colors.lightBlue[300],
+  alpha: colors.lightBlue[500],
+  alphaDark: colors.lightBlue[600],
+  alphaDarker: colors.lightBlue[800]
 }
 
 // Secondary

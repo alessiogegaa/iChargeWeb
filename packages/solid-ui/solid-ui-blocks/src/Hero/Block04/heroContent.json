@@ -1,0 +1,18 @@
+{
+    "title": "Pastër dhe shpejtë",
+    "description": "Gjenerate e re e larjes së makinës me teknologji moderne të automatizuar",
+    "buttons": [
+      {
+        "text": "PIKAT TONA",
+        "type": "ANCHOR",
+        "link": "#map", 
+        "variant": "primary-light"
+      },
+      {
+        "text": "CMIMET",
+        "type": "ANCHOR",
+        "link": "#pricing", 
+        "variant": "primary-light"
+      }
+    ]
+  }
