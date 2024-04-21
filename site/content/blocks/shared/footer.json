@@ -46,8 +46,8 @@
         },
         {
           "text": "Tirane, Rruga e Kavajes, Godina ne krah te Vetingut, Kati I",
-          "type": "PAGE",
-          "link": "/FAQs",
+          "type": "MODAL",
+          "link": "contact",
           "variant": "links.nav-light",
           "target":"_blank"
         },
