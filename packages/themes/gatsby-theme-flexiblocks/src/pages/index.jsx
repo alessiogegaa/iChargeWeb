@@ -8,8 +8,8 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import Header from '@solid-ui-blocks/Header/Block02'
 import Team from '@solid-ui-blocks/Hero/Block03'
 import Hero from '@solid-ui-blocks/Hero/Block04'
-import Stats from '@solid-ui-blocks/Stats/Block01'
-import Features from '@solid-ui-blocks/Features/Block06'
+{/*import Stats from '@solid-ui-blocks/Stats/Block01'*/}
+import Features from '@solid-ui-blocks/Features/Block07'
 import HowItWorks from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import ServicesDetails from '@solid-ui-blocks/Faq/Block02'
 import Faq from '@solid-ui-blocks/Faq/Block01'
@@ -32,7 +32,7 @@ const HomePage = props => {
       <Header content={content['header']} />
         <Hero content={content['hero']} />
       <Divider space='4' />
-      <Stats content={content['stats']} />
+      {/*<Stats content={content['stats']} />*/}
       <Divider space='4' />
       <Container variant='wide' sx={styles.featuresContainer}>
         <Divider space={-6} />
@@ -44,7 +44,9 @@ const HomePage = props => {
       <Divider space='5' />
       <ContentTwo content={content['solutions']} />
       <Divider space='5' />
+      <Container variant='wide' sx={styles.financim}>
       <Team content={content['team']} />
+      </Container>
       <Divider space='5'/>
       <HowItWorks content={content['how-it-works']} />
       <Divider space='5' />

@@ -53,7 +53,7 @@ const FeaturesWithPhotoBlock07 = ({
       }}
     >
       <FlexImage reverse={reverse}>
-        <ContentImages content={{ images }} reverse={reverse} />
+        <ContentImages content={{ images }} reverse={reverse} sx={{borderRadius:'30px'}}/>
       </FlexImage>
       <FlexContent reverse={reverse}>
         <Box sx={{ textAlign: [`center`, `left`] }}>

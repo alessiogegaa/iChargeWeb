@@ -27,7 +27,9 @@ const FeaturesBlock06 = ({ content: { text = [], collection, buttons } }) => (
                 <ContentContainer content={container} sx={{':hover': {
                     backgroundColor: '#6d7e78', 
                     color:'black'
-                  },}}>
+                  },
+                  height:'15em'
+                  }}>
                   <ListItem
                     {...props}
                     iconProps={{ round: true }}

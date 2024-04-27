@@ -15,7 +15,6 @@ const styles = {
   },
   content: {
     flexDirection: `column`,
-    size: `full`,
     alignItems: `center`,
     justifyContent: `center`,
     py: 4
@@ -39,13 +38,14 @@ const styles = {
 const HeroBlock03 = ({
   content: { container, text, buttons, form, images }
 }) => (
-  <Container variant='full' sx={{ textAlign: `center`, position: `relative` }}>
+  <Container sx={{ textAlign: `center`, position: `relative`}}>
     <Flex
       sx={{
         ...styles.content,
         minHeight: images?.[0]?.src
           ? getImage(images[0].src)?.height
-          : undefined
+          : undefined,
+      
       }}
     >
       <Reveal effect='fadeInDown'>
@@ -54,7 +54,6 @@ const HeroBlock03 = ({
           sx={{
             display: `inline-block`
           }}
-          px='2'
           mb='3'
         />
         <ContentText content={text?.[1]} mb='4' mx='auto' />
@@ -90,3 +89,4 @@ const HeroBlock03 = ({
 )
 
 export default WithDefaultContent(HeroBlock03)
+

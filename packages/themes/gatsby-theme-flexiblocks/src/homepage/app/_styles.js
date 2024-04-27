@@ -41,6 +41,22 @@ export default {
       )`,
     }
   },
+  financim: {
+    position: `relative`,
+    '::before': {
+      position: `absolute`,
+      content: `" "`,
+      size: `full`,
+      top: 0,
+      right: 0,
+      zIndex: -1,
+      borderRadius: `xl`,
+      background: `linear-gradient(
+        180deg,
+        #ced9d2 5%, #6d7e78 100%
+      )`,
+    }
+  },
   tabsContainer: {
     position: `relative`,
     py: [4, 5],
