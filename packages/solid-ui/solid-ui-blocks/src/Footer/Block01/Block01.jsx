@@ -51,7 +51,8 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
                       flexWrap: `wrap`,
                       justifyContent: `center`
                     }}
-                    sx={{color: 'white'}}
+                    sx={{color: 'white'
+                  }}
                   />
                 </Box>
               )

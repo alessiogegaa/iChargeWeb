@@ -32,12 +32,6 @@
           "variant": "links.nav-dark"
         },
         {
-          "text": "RRETH NESH",
-          "type": "ANCHOR",
-          "link": "#how-it-works",
-          "variant": "links.nav-dark"
-        },
-        {
           "text": "KONTAKT",
           "type": "MODAL",
           "link": "contact",

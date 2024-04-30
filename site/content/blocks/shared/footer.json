@@ -39,24 +39,23 @@
       ],
       "buttons": [
         {
-          "text": "office@icharge.app",
-          "type": "PAGE",
-          "link": "/",
+          "text": "Adresa: Tirane, Rruga e Kavajes, Godina ne krah te Vetingut, Kati I",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "links.nav-light",
+          "target":"_blank"
+        },
+        {
+          "text": "Email: office@icharge.app",
+          "type": "MODAL",
+          "link": "contact",
           "variant": "links.nav-light"
         },
         {
-          "text": "Tirane, Rruga e Kavajes, Godina ne krah te Vetingut, Kati I",
+          "text": "Tel: 00355 69 232 5111",
           "type": "MODAL",
           "link": "contact",
-          "variant": "links.nav-light",
-          "target":"_blank"
-        },
-        {
-          "text": "Kontakt",
-          "type": "MODAL",
-          "link": "contact",
-          "variant": "links.nav-light",
-          "target":"_blank"
+          "variant": "links.nav-light"
         }
       ]
     },

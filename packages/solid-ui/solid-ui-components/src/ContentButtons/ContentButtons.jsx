@@ -107,7 +107,13 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
     content: { type, link, target, variant },
     setActiveModal,
     setActiveTab
-  })
+  });
+
+  const shouldWrapText = (text) => {
+    return text.length > 65;
+  };
+
+  const wrappedText = shouldWrapText(text) ? text.match(/.{1,43}/g) : text;
 
   return (
     <Component
@@ -122,13 +128,22 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
       className={[linkProps.className, className].join(' ')}
     >
       <Box sx={{ display: `inline-block` }}>
-        <Icon content={icon} size='xs' mr='1' /> {text}
+        <Icon content={icon} size='xs' mr='1' />
+        {Array.isArray(wrappedText)
+          ? wrappedText.map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            ))
+          : wrappedText}
       </Box>
 
       {children}
     </Component>
-  )
-}
+  );
+};
+
 
 const ContentButton = ({ content, level = 1 }) => {
   const { collection, buttons } = content
