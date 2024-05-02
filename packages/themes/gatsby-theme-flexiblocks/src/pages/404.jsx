@@ -13,8 +13,7 @@ const NotFoundPage = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
-      <Header content={content['header']} />
+      <Seo title='404' />
       <Divider space='5' />
       <Divider space='5' />
       <Message content={content['404']} reverse />
