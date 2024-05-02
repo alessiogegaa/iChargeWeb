@@ -4,7 +4,7 @@
  * [background colors] to blocks.
  *
  */
-import heroBg from '../marketing/assets/hero.png'
+import heroBg from '../../../../../../site/content/assets/flexiblocks/homepage/app/hero.png'
 export default {
   heroContainer: {
     '::before': {

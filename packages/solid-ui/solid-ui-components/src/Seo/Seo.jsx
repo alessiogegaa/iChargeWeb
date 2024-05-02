@@ -4,6 +4,7 @@ import useSiteMetadata from '@blocks-helpers/useSiteMetadata'
 
 const Seo = ({
   title,
+  pageDescription,
   description,
   excerpt,
   meta,
@@ -15,10 +16,11 @@ const Seo = ({
   const site = useSiteMetadata()
 
   const social = (author && author.social) || site.social || []
-  const twitter =
-    social.find(s => s.name && s.name.toLowerCase() === 'twitter') || {}
+  const youtube = social.find(s => s.name && s.name.toLowerCase() === 'youtube') || {};
+const github = social.find(s => s.name && s.name.toLowerCase() === 'github') || {};
+const linkedin = social.find(s => s.name && s.name.toLowerCase() === 'linkedin') || {};
 
-  description = excerpt || description || site.description
+description = pageDescription || excerpt || description || site.description;
 
   thumbnail = thumbnail && thumbnail.hero && thumbnail.hero.src
   const thumbnailUrl =
@@ -42,15 +44,24 @@ const Seo = ({
     { property: 'og:site_name', content: site.name },
     { property: 'og:image', content: thumbnailUrl },
 
-    { name: 'twitter:card', content: 'summary' },
+    /*{ name: 'twitter:card', content: 'summary' },
     { name: 'twitter:site', content: site.name },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:creator', content: twitter.url }
+    { name: 'twitter:creator', content: twitter.url }*/
+     // YouTube
+  { name: 'youtube:channel', content: youtube.url || '' },
+
+  // GitHub
+  { name: 'github:profile', content: github.url || '' },
+
+  // LinkedIn
+  { name: 'linkedin:profile', content: linkedin.url || '' },
+
   ]
 
-  if (keywords && keywords.length > 0) {
-    metaTags.push({ name: 'keywords', content: keywords.join(', ') })
+  if (keywords && Array.isArray(keywords) && keywords.length > 0) {
+    metaTags.push({ name: 'keywords', content: keywords.join(', ') });
   }
 
   if (meta) {

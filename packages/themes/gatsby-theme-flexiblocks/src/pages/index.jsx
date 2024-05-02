@@ -25,7 +25,7 @@ const HomePage = props => {
   
   return (
     <Layout theme={theme} {...props}>
-      <Seo title='Home' />
+      <Seo title='Home' keywords='karikim, iCharge, makina elektrike, karikim ne shtepi' pageDescription='iCharge.app është një platformë për menaxhimin online të karikuesve të makinave elektrike. Individët ose kompanitë kanë mundësinë të lidhen dhe të ofrojne sherbime karikimi për përdoruesit e makinave elektrike.'/>
       {/* Modals */}
       <ModalWithTabs content={content['contact']} />
       {/* Blocks */}
