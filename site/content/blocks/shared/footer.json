@@ -18,7 +18,7 @@
         {
           "text": "Get it on Google Play",
           "type": "APP",
-          "link": "/",
+          "link": "https://play.google.com/store/apps/details?id=com.icharge.mobile.app",
           "variant": "google",
           "target":"_blank"
         },
