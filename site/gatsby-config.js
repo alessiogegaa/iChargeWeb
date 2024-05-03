@@ -18,6 +18,17 @@ module.exports = {
         createDemoPages: false,
         colorMode: false
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-FWJWQ58R1Y", 
+        ],
+        pluginConfig: {
+          head: true
+        },
+      },
     }
   ],
   siteMetadata: {
